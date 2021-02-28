@@ -34,7 +34,7 @@ section {
 
 footer {
     margin-top: 60px;
-    padding: 4em;
+    padding: 3em;
 }
 
 .fa {
@@ -58,4 +58,13 @@ footer {
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+
+#team-caption {
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+
+#team-text {
+    padding: 30px;
 }

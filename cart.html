@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
         <!-- minu CSS -->
         <link rel="stylesheet" href="custom.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <!-- päis -->
@@ -146,6 +147,17 @@
                             <label for="inputZip">Zip</label>
                             <input type="text" class="form-control" id="inputZip">
                           </div>
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary active">
+                              <input type="radio" name="options" id="option1" autocomplete="off" checked> Debit/Credit
+                            </label>
+                            <label class="btn btn-secondary">
+                              <input type="radio" name="options" id="option2" autocomplete="off"> PayPal
+                            </label>
+                            <label class="btn btn-secondary">
+                              <input type="radio" name="options" id="option3" autocomplete="off"> Makselink
+                            </label>
+                          </div>
                         </div>
                       </form>
 
@@ -157,8 +169,27 @@
         <footer class="bg-light">
             <div class="container-fluid">
                 <div class="row">
-                    <!-- TODO! -->
-                    <div class="col-lg-12 text-center"><p>Footer</p></div>
+                    <!-- TODO! --->
+                    <div class="col-lg-12 text-center">
+                          <div class="row">
+                            <div class="col-auto mr-auto">
+                                <ul class="list-unstyled">
+                                    <li><p class="mb-0">28.02.2021</p></li>
+                                    <li><p class="mb-0">tel: 55555555</p></li>
+                                    <li><p class="mb-0">@: soap@soap.com</p></li>
+                                    <li><a href="meist.html"></a>Meist</li>
+                                </ul>
+                            </div>
+                            <div class="col-auto">
+                                <div class="footer-sm">
+                                    <ul class="list-unstyled">
+                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>       
